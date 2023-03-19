@@ -16,7 +16,7 @@ stage_count = -1
 while "_" in (display):
     if lives == 0:
         print("you lost.")
-        break
+        quit()
 
     entered_char = input("guess a letter:").lower()
 
